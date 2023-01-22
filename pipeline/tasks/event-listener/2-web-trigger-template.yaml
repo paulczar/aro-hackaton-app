@@ -26,11 +26,11 @@ spec:
         - name: dependency-git-url
           value: https://github.com/paulczar/common-java-dependencies
         - name: application-git-url
-          value: https://github.com/paulczar/aro-hackaton-app
+          value: https://github.com/paulczar/aro-workshop-app
         - name: dockerfile-path
           value: src/main/docker/Dockerfile.jvm
         - name: image-name
-          value: user031654.azurecr.io/minesweeper.azurecr.io/minesweeper
+          value: mobbws28984.azurecr.io/minesweeper.azurecr.io/minesweeper
       workspaces:
         - name: source
           persistentVolumeClaim:
